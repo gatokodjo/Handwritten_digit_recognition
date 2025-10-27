@@ -50,3 +50,86 @@ Input (28x28x1)
 ├── Dense (128, ReLU)
 ├── Dropout (0.3)
 └── Dense (10, Softmax)
+
+
+
+
+---
+
+## ⚙️ Technologies Used
+
+- **Python 3.x**
+- **TensorFlow / Keras**
+- **NumPy**
+- **Matplotlib**
+- **Tkinter / Streamlit (for UI)**
+- **Scikit-learn**
+
+---
+
+## 🧩 How It Works
+
+1. **Data Preprocessing**  
+   The MNIST dataset is normalized and reshaped for CNN input.  
+   Labels are one-hot encoded.
+
+2. **Model Architecture**  
+   - Convolutional Layers (feature extraction)  
+   - MaxPooling Layers (dimensionality reduction)  
+   - Dense Layers (classification)  
+   - Softmax Output Layer (digit prediction)
+
+3. **Training**  
+   - Optimizer: `Adam`  
+   - Loss Function: `categorical_crossentropy`  
+   - Metrics: `accuracy`
+
+4. **Evaluation**  
+   The model’s accuracy and confusion matrix visualize its classification performance.
+
+---
+
+## 📈 Results
+
+- **Training Accuracy:** ~99%  
+- **Validation Accuracy:** ~98%  
+- **Low Loss** and excellent generalization on unseen data.
+
+---
+
+## 📸 Example Output
+
+### Confusion Matrix  
+Visualizes how well the model classifies each digit.
+
+### Interactive Canvas  
+Allows users to draw digits and see predictions instantly.
+
+---
+
+## 🧑‍💻 Author
+
+**Ewli Kodjo Gato Didier**  
+🎓 Master’s Student in AI | Data Scientist | Deep Learning Enthusiast  
+📍 Nairobi, Kenya 
+📧 kodjoewli@gmail.com
+
+---
+
+## 📜 License
+
+This project is released under the **MIT License**.  
+Feel free to use, modify, and share it for learning or research purposes.
+
+---
+
+## 🌟 Acknowledgments
+
+- **MNIST Dataset** — by *Yann LeCun et al.*  
+- **TensorFlow / Keras** for model building.  
+- **Matplotlib** for visualization and interactivity.
+
+⭐ If you like this project, don’t forget to **star the repo** and share it!
+
+
+
