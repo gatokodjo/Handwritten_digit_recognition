@@ -99,7 +99,6 @@ Input (28x28x1)
 
 ## 📸 Example Output
 
-## 📸 Example Output
 
 ### 🧮 Confusion Matrix
 Visualizes how well the model classifies each digit.
@@ -113,9 +112,7 @@ Visualizes how well the model classifies each digit.
 Allows users to draw digits and get real-time predictions from the trained model.
 
 > 🖼️ **Placeholder:**  
-> ![Interactive Board](interactive_board.png "Interactive Canvas Preview")
-
----
+> ![Interactive Board](Interactive_board.png "Interactive Canvas Preview")
 
 ---
 
