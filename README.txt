@@ -99,11 +99,23 @@ Input (28x28x1)
 
 ## 📸 Example Output
 
-### Confusion Matrix  
+## 📸 Example Output
+
+### 🧮 Confusion Matrix
 Visualizes how well the model classifies each digit.
 
-### Interactive Canvas  
-Allows users to draw digits and see predictions instantly.
+> 🖼️ **Placeholder:**  
+> ![Confusion Matrix](confusion_matrix.png "Confusion Matrix Preview")
+
+---
+
+### ✍️ Interactive Canvas
+Allows users to draw digits and get real-time predictions from the trained model.
+
+> 🖼️ **Placeholder:**  
+> ![Interactive Board](interactive_board.png "Interactive Canvas Preview")
+
+---
 
 ---
 
